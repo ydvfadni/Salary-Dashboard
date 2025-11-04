@@ -1,4 +1,4 @@
-# 📈 Data Science & Tech Salary Dashboard (Microsoft Excel)
+# 📈 Data Salary Dashboard (Microsoft Excel)
 
 A dynamic and interactive dashboard built in **Microsoft Excel** to analyze and visualize global salary trends across various data science, engineering, and tech roles.
 
@@ -10,13 +10,14 @@ A dynamic and interactive dashboard built in **Microsoft Excel** to analyze and 
 3.  [Key Features and Metrics](#3-key-features-and-metrics)
 4.  [Data Source and Preparation](#4-data-source-and-preparation)
 5.  [Technology and Tools](#5-technology-and-tools)
-6.  [How to Use the Dashboard](#6-how-to-use-the-dashboard)
-7.  [File Structure](#7-file-structure)
-8.  [Contact and Future Enhancements](#8-contact-and-future-enhancements)
+6.  [Snapshots](#6-snapshots)
+7.  [How to Use the Dashboard](#7-how-to-use-the-dashboard)
+8.  [File Structure](#8-file-structure)
+
 
 ---
 
-## 1. 💡 Project Overview
+## 1. Project Overview
 
 This project delivers a robust **Salary Dashboard** designed to provide comprehensive insights into the compensation landscape for technical professionals, including **Data Scientists, Data Engineers, and Data Analysts**. Leveraging the powerful data processing and visualization capabilities of Microsoft Excel, the dashboard allows users to dynamically filter salary data based on job role, geographical location, and employment type.
 
@@ -24,7 +25,7 @@ The centerpiece of this project is the **Data Science Salary Calculator**, which
 
 ---
 
-## 2. 🎯 Project Goal
+## 2. Project Goal
 
 The primary objectives of this dashboard are:
 
@@ -34,7 +35,7 @@ The primary objectives of this dashboard are:
 
 ---
 
-## 3. 📊 Key Features and Metrics
+## 3. Key Features and Metrics
 
 The dashboard provides interactive visualizations and key performance indicators (KPIs) focused on compensation:
 
@@ -48,7 +49,7 @@ The dashboard provides interactive visualizations and key performance indicators
 
 ---
 
-## 4. 🧹 Data Source and Preparation
+## 4. Data Source and Preparation
 
 The dashboard is powered by a comprehensive dataset containing detailed job postings information.
 
@@ -67,7 +68,7 @@ The raw data is structured with key fields including:
 
 ---
 
-## 5. 🛠️ Technology and Tools
+## 5. Technology and Tools
 
 * **Core Technology:** **Microsoft Excel** (.xlsx)
 * **Key Excel Components Used:**
@@ -77,8 +78,11 @@ The raw data is structured with key fields including:
     * **Advanced Formulas:** SUMIFS, AVERAGEIFS, MEDIAN, IF statements, and named ranges to link control elements to reporting metrics.
 
 ---
+## 6. Snapshots 
+Snapshot 1
+<img width="1870" height="915" alt="Snapshot1" src="https://github.com/user-attachments/assets/bde1fdb9-b433-4a2c-abd8-d53b503497a4" />
 
-## 6. 🚀 How to Use the Dashboard
+## 7. How to Use the Dashboard
 
 1.  **Download:** Clone this repository and open the **`Salary_Dashboard.xlsx`** file in Microsoft Excel (2016 or later recommended for full functionality).
 2.  **Navigate:** Go to the main **`Dashboard`** sheet.
@@ -90,7 +94,7 @@ The raw data is structured with key fields including:
 
 ---
 
-## 7. 📁 File Structure
+## 8. File Structure
 
 The project is contained within a single Excel workbook, which is logically separated into multiple sheets for data integrity and presentation:
 
@@ -105,15 +109,5 @@ The project is contained within a single Excel workbook, which is logically sepa
 | `Data_validation` (`Salary_Dashboard.xlsx - Data_validatation.csv`) | Lists and data used to populate dropdowns and slicers across the dashboard. |
 
 ---
-
-## 8. 🛣️ Future Enhancements
-
-Potential future upgrades for this project include:
-
-* **Skill-Based Filtering:** Integrating a skill-based slicer to see compensation based on required skills (e.g., Python, SQL, Tableau).
-* **Time-Series Analysis:** Adding a timeline feature to track salary trends over different posting years or months.
-* **Power BI/Tableau Migration:** Rebuilding the dashboard in a dedicated BI tool for enhanced interactivity and scalability.
-
-***
 
 **Thank you for checking out this project!** Feel free to fork the repository and explore the data.
